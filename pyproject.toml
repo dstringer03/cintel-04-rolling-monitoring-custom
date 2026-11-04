@@ -14,7 +14,7 @@
 
 
 [project]
-name = "cintel-04-rolling-monitoring"  # Usually matches repository name (use lowercase and dashes).
+name = "cintel-04-rolling-monitoring-custom"
 readme = "README.md"
 requires-python = ">=3.14"
 version = "0.1.0"

@@ -1,5 +1,8 @@
 """utils_system.py.
 
+Author: Darrion Maurice Stringer
+Date: 2026-11
+
 Shared helper functions
 for the system-metrics monitoring domain.
 
