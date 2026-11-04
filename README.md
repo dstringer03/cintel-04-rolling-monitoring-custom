@@ -218,3 +218,22 @@ I learned that choosing a window size involves balancing responsiveness and smoo
 Comparison files:
 - artifacts/rolling_metrics_window3.csv
 - artifacts/rolling_metrics_window5.csv
+
+## D3: Rolling Reliability Monitoring
+
+My custom analysis compares rolling error rates using windows of 3 and 5 observations.
+
+Run it from the project root:
+
+    uv run python -m cintel.reliability_monitor
+
+The script saves:
+- artifacts/rolling_reliability.csv
+- artifacts/reliability_summary.csv
+- docs/images/rolling-reliability.svg
+
+Window 3 peaked at 4.85% at 11:15. Window 5 peaked at 4.37% at 11:25, showing a lower and later peak.
+
+I used an illustrative review threshold above 3%. This is not an established service standard.
+
+[Read my full report and view the chart](docs/index.md)
