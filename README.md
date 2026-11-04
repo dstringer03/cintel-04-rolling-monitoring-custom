@@ -202,3 +202,19 @@ testing, documentation, and code quality.
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)
+
+## D2 Experiment: Comparing Window Sizes
+
+I changed WINDOW_SIZE from 3 to 5 to see how more observations affect the rolling averages.
+
+Prediction: I expected the larger window to smooth short-term changes more, respond more slowly, and leave the first four rows without rolling averages.
+
+Actual results: The pipeline processed all 60 records successfully. The window of 3 had two initial rows without rolling averages. The window of 5 had four.
+
+At 08:20, the rolling request average was 165 with a window of 3 and 150 with a window of 5. Earlier, lower request counts caused the larger window to reflect the increase more slowly.
+
+I learned that choosing a window size involves balancing responsiveness and smoothing.
+
+Comparison files:
+- artifacts/rolling_metrics_window3.csv
+- artifacts/rolling_metrics_window5.csv

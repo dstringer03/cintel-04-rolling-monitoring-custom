@@ -125,7 +125,7 @@ def main() -> None:
     # row 3 → mean of rows [1,2,3]
     # row 4 → mean of rows [2,3,4]
 
-    WINDOW_SIZE: int = 3
+    WINDOW_SIZE: int = 5
 
     LOG.info(f"WINDOW_SIZE: {WINDOW_SIZE}")
 
