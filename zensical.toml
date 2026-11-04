@@ -53,9 +53,9 @@
 
 [project]
 site_name = "Docs" # CUSTOM: Set the name that appears in the browser tab.
-site_url = "https://denisecase.github.io/cintel-04-rolling-monitoring/"
-repo_url = "https://github.com/denisecase/cintel-04-rolling-monitoring"
-repo_name = "cintel-04-rolling-monitoring"
+site_url = "https://dstringer03.github.io/cintel-04-rolling-monitoring-custom/"
+repo_url = "https://github.com/dstringer03/cintel-04-rolling-monitoring-custom"
+repo_name = "cintel-04-rolling-monitoring-custom"
 site_description = "Project Documentation" # CUSTOM: Set the description.
 docs_dir = "docs" # source directory for documentation markdown files
 site_dir = "site" # output directory for generated site (ignored by Git; not in repo)
@@ -65,7 +65,7 @@ edit_uri = "edit/main/docs/" # "Edit this page" links (GitHub)
 [project.extra]
 # WHY: Social links provide easy access to project repositories and profiles.
 social = [
-    {icon = "fontawesome/brands/github", link = "https://github.com/denisecase/cintel-04-rolling-monitoring" },
+    {icon = "fontawesome/brands/github", link = "https://github.com/dstringer03/cintel-04-rolling-monitoring-custom" },
 ]
 
 [project.markdown_extensions]
